@@ -1,3 +1,5 @@
 // Code SimplerComponent Here
-import React, {PureComponent} from 'react'
-const SimplerComponent = (props) => <div>I am just {props.mood}</div>
+import React from 'react'
+const SimplerComponent = props => <div onClick={props.handleClick}>I am just happy</div>
+
+export default SimplerComponent
